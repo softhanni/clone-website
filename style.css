@@ -1,0 +1,413 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing : border-box;
+}
+
+body {
+    background-color: #11121a;
+}
+
+header {
+    width: 100%;
+    background-color: #0000FF; /* Blue color */
+}
+
+header nav {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+header h1 {
+    color: white;
+    margin-left: 10px;
+}
+
+header img {
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+}
+
+.search-bar svg {
+    width: 40px;
+    background-color: #1c1c24;
+    padding: 8px;
+    height: 44px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.search-bar {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.search-bar .input {
+    width: 100%;
+    caret-color: white;
+    color: white;
+    outline: none;
+    height: 60px;
+    background-color: #1c1c24;
+    font-size: 25px;
+    border: none;
+}
+
+.search-bar button {
+    height: 60px;
+    width: 150px;
+    background-color: #0000FF;
+    color: white;
+    font-size: 20px;
+    border: none;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+main {
+    width: 85%;
+    margin: 0 auto;
+    
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+
+main .flex {
+    
+    margin-bottom: 50px;
+    
+}
+
+.div4{
+    display: flex;
+    justify-content:safe;
+}
+
+
+
+
+
+h2 {
+    width: 80%;
+    margin: 0 auto;
+    color: white;
+    font-size: 30px;
+    height: 50px;
+}
+
+.j1 .dots {
+    font-size: 35px;
+    color: white;
+    width: 30px;
+    margin-left: 220px;
+    margin-top: 20px;
+    position: absolute;
+}
+
+.j1 img {
+    width: 50px;
+    height: 50px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.j1 {
+    width: 360px;
+    height: 360px;
+    background-color: #1c1c24;
+    border-radius: 20px;
+}
+
+.j1 h3, .j1 p {
+    color: white;
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+.j1 .buttons {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+
+.j1 .applybtn {
+    width: 130px;
+    height: 55px;
+    background-color: #550ddb;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+    border: none;
+}
+
+.j1 .messagebtn {
+    width: 110px;
+    height: 55px;
+    background-color: #ff8800;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+    border: none;
+}
+
+.job {
+    width: 360px;
+    height: 360px;
+    background-color: #1c1c24;
+    border-radius: 20px;
+}
+
+.job h3 {
+    color: white;
+    margin-top: 90px;
+    margin-left: 20px;
+    font-size: 20px;
+    
+}
+.job p{
+    color: white;
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 20px;  
+}
+
+.job .buttons {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+.job .applybtn {
+    width: 130px;
+    height: 55px;
+    background-color: #550ddb;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+    border: none;
+}
+
+.job .messagebtn {
+    width: 110px;
+    height: 55px;
+    background-color: #ff8800;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+    border: none;
+}
+
+.job .dots {
+    font-size: 35px;
+    color: white;
+    width: 30px;
+    margin-left: 20px;
+    margin-top: 20px;
+    position: absolute;
+}
+
+.buttons3{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 55px;
+    
+
+}
+
+.buttons4{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 60px;
+
+}
+
+.buttons5{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 60px;
+    
+
+}
+.buttons6{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 82px;
+    
+
+}
+.buttons7{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+    
+
+}
+
+.buttons8{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 85px;
+    
+
+}
+
+.buttons9{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 85px;
+    
+
+}
+
+.buttons10{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    
+
+}
+.buttons11{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 88px;
+    
+
+}
+#j11{
+    margin-left: 34px;
+}
+
+.j1:hover{
+    transform: scale(1.05);
+}
+
+.job:hover{
+    transform: scale(1.05);
+}
+
+
+@media   (max-width: 500px){
+main{
+    display:flex;
+    flex-direction :  column;
+width:90%;
+align-items   : center;
+
+}
+.flex{
+    padding: 5px;
+    
+    margin : 0 auto;
+    width: 90%;
+    flex-direction: column;
+    align-items: center;
+
+}
+.j1{
+    padding: 5px;
+    width  : 90%;
+    margin : 10px auto;
+overflow: hidden;
+}
+
+.job{
+    padding: 5px;
+    width  : 90%;
+    margin : 10px auto;
+overflow:hidden;
+}
+
+
+body{
+    background-color: #11121a;
+
+}
+
+header{
+    width: 100%;
+
+}
+header nav{
+    width: 100%;
+}
+.search-bar{
+    width: 100%;
+    margin: 0;
+}
+.search-bar button{
+    display: none;
+}
+.j1 .buttons{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.job .buttons2{
+    display: flex;
+    flex-direction: column;
+
+}
+.job .buttons3{
+    display: flex;
+    flex-direction: column;
+
+}.job .buttons4{
+    display: flex;
+    flex-direction: column;
+
+}.job .buttons5{
+    display: flex;
+    flex-direction: column;
+
+}.job .buttons6{
+    display: flex;
+    flex-direction: column;
+
+}.job .buttons7{
+    display: flex;
+    flex-direction: column;
+
+}.job .buttons{
+    display: flex;
+    flex-direction: column;
+
+}.job .buttons8{
+    display: flex;
+    flex-direction: column;
+
+}.job .buttons9{
+    display: flex;
+    flex-direction: column;
+
+}.job .buttons10{
+    display: flex;
+    flex-direction: column;
+
+}.job .buttons11{
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+}
+
+
+
+
+
+
